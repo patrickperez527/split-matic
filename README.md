@@ -63,10 +63,8 @@ Local Storage – To save and retrieve calculation history.
 Contributing
 Contributions are welcome! If you find any bugs or have feature suggestions, please fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
-License
-This project is licensed under the MIT License.
+License: This project is licensed under the MIT License.
 
-Contact
-For any questions or feedback, please contact your.email@example.com or open an issue on GitHub.
+Contact: For any questions or feedback, please contact patrickperez527@gmail.com or open an issue on GitHub.
 
 This README covers an overview of your app, its features, installation steps, usage instructions, and contribution guidelines. Feel free to customize any section to better fit your project's details.
