@@ -27,7 +27,7 @@ SplitMatic is a modern, responsive web application built with React that helps u
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/SplitMatic.git
+   git clone https://github.com/patrickperez527/SplitMatic.git
 
 2. **Navigate into the project directory:**
 
