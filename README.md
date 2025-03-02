@@ -31,14 +31,17 @@ SplitMatic is a modern, responsive web application built with React that helps u
 
 2. **Navigate into the project directory:**
 
+    ```bash
     cd SplitMatic
 
 3. **Install dependencies:**
 
+    ```bash
     npm install
 
 4. **Start the development server:**
 
+    ```bash
     npm start
 
 5. Open your browser at http://localhost:3000 to view the app.
