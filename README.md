@@ -1,4 +1,4 @@
-# SplitMatic
+# [SplitMatic](https://split-matic.netlify.app/)
 
 SplitMatic is a modern, responsive web application built with React that helps users easily split bills among groups. With an itemized bill input system, customizable currency options, detailed breakdowns, and local storage for calculation history, SplitMatic offers a clean, user-friendly interface on both desktop and mobile.
 
