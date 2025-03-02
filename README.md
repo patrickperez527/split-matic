@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# SplitMatic
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SplitMatic is a modern, responsive web application built with React that helps users easily split bills among groups. With an itemized bill input system, customizable currency options, detailed breakdowns, and local storage for calculation history, SplitMatic offers a clean, user-friendly interface on both desktop and mobile.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Itemized Bill Input:**  
+  Add multiple items with a description, price, and optional tip percentage.
+  
+- **Detailed Breakdown:**  
+  Automatically calculates each item's tip, total, and per-person share.
+  
+- **Responsive Design:**  
+  Optimized for desktop and mobile with custom tooltips, cursor, and scrollbar styling.
+  
+- **Calculation History:**  
+  Previous calculations are saved in local storage for quick reference.
+  
+- **Custom Tooltips & Cursor:**  
+  Enhanced UI with styled tooltips on buttons/inputs and a custom mouse cursor.
+  
+- **Modals & Notifications:**  
+  Confirmation modals for reset actions and clear history, plus a copy-to-clipboard feature.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Clone the repository:**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   ```bash
+   git clone https://github.com/yourusername/SplitMatic.git
 
-### `npm test`
+2. **Navigate into the project directory:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    cd SplitMatic
 
-### `npm run build`
+3. **Install dependencies:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Start the development server:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    npm start
 
-### `npm run eject`
+5. Open your browser at http://localhost:3000 to view the app.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Usage
+Adding Items:
+Enter an item's description, price, and (optionally) tip percentage. Click + Add Item to add additional items.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Calculate Bill Split:
+Provide the number of people and select a currency. Then click Calculate to see the total, tip, and per-person share.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Reset & History:
+Use the Reset button to clear inputs or Clear History to remove previous calculations from local storage.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Copy Result:
+Click Copy Result to copy the breakdown and totals to your clipboard.
 
-## Learn More
+Technologies Used
+React – For building the interactive user interface.
+CSS – For custom styling, including tooltips, cursor, and scrollbar design.
+Local Storage – To save and retrieve calculation history.
+Contributing
+Contributions are welcome! If you find any bugs or have feature suggestions, please fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+License
+This project is licensed under the MIT License.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contact
+For any questions or feedback, please contact your.email@example.com or open an issue on GitHub.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This README covers an overview of your app, its features, installation steps, usage instructions, and contribution guidelines. Feel free to customize any section to better fit your project's details.
